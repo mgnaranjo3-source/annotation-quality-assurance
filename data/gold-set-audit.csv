@@ -1,0 +1,16 @@
+item_id,annotator,gold_label,annotator_label,correct,error_code,note
+G01,ann_A,POS,POS,yes,,
+G02,ann_A,NEG,NEG,yes,,
+G03,ann_A,NEU,POS,no,E2,"'Works as described' is NEU per v1.1"
+G04,ann_A,NEG,NEG,yes,,
+G05,ann_A,POS,POS,yes,,
+G06,ann_B,NEG,POS,no,E3,sarcasm read literally
+G07,ann_B,NEU,NEU,yes,,
+G08,ann_B,POS,POS,yes,,
+G09,ann_B,NEG,NEU,no,E2,unmet expectations = NEG
+G10,ann_B,NEU,NEU,yes,,
+G11,ann_C,POS,POS,yes,,
+G12,ann_C,NEG,NEG,yes,,
+G13,ann_C,NEG,POS,no,E3,sarcasm read literally
+G14,ann_C,NEU,NEU,yes,,
+G15,ann_C,POS,POS,yes,,
